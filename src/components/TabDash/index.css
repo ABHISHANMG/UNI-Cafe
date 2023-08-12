@@ -1,0 +1,16 @@
+li {
+  list-style-type: none;
+  flex-shrink: 0;
+  padding: 10px 20px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tab-heading {
+  font-size: 15px;
+}
+
+.active {
+  color: red;
+  border-bottom: 2px solid red;
+}
